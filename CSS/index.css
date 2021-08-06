@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+.container-header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    border-bottom: 1px lightgray solid;
+
+}
+header {
+    position: relative;
+}
+
+
+.button-header {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    margin: 10px 60px;
+}
+
+strong {
+    border: 2px black solid;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+ .logo {
+     text-align: center;
+     line-height: 0;
+ }
+
+ .date {
+     margin-top: 0;
+ }
+
+ .container-main {
+     margin: auto 120px;
+     margin-bottom: 200px;
+     border: rgb(192, 191, 191) solid 1px;
+ }
+
+ .list {
+     list-style-type: none;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ .first-list {
+     color: black;
+     font-weight: bolder; 
+ }
+
+ .end {
+     margin-right: 50px;
+ }
+
+ .f1-line {
+    border: rgb(192, 191, 191) solid 1px;
+ }
+
+ .second-list {
+     color: black;
+     margin-right: 30px;
+ }
+
+ .end-1 {
+     margin-right: 20px;
+ }
+
+ .f2-line {
+    border: orangered solid 1px;
+ }
+
+ .image {
+     margin-left: 10px;
+ }
+
+ .text {
+     text-align: center;
+ }
+
+ .margin {
+     margin: auto 20px;
+ }
+
+ .image-container {
+     display: flex;
+     margin-left: 30px;
+     margin-bottom: 10px;
+ }
+
+ .image-1 {
+     flex: 1;
+     font-size: 1.4em;
+ }
+
+ .image-2 {
+     flex: 1;
+     font-size: 1.4em;
+ }
